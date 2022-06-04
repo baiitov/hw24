@@ -8,6 +8,7 @@ body {
 }
 
 code {
+  background: rgb(0, 251, 255);
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
