@@ -40,6 +40,7 @@ const Btn = styled.span`
 const List = (props) => {
 	return (
 		<Block>
+			
 			<ul>
 				{props.expense.map((el) => (
 					<Li key={el.id}>
@@ -49,6 +50,7 @@ const List = (props) => {
 						<Btn onClick={() => props.deleteHandler(el.id)}>
 							X
 						</Btn>
+
 					</Li>
 				))}
 			</ul>

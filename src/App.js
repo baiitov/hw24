@@ -130,6 +130,7 @@ function App() {
 				</div>
 				<div className='control'>
 					<Label>Price</Label>
+				   
 					<Input
 						id='price'
 						value={data.price}
